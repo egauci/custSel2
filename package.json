@@ -1,0 +1,39 @@
+{
+  "name": "cs2",
+  "version": "0.1.0",
+  "description": "Custom Select",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egauci/custSel2.git"
+  },
+  "author": "eg",
+  "bugs": {
+    "url": "https://github.com/egauci/custSel2/issues"
+  },
+  "homepage": "https://github.com/egauci/custSel2#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.7.0",
+    "eslint-plugin-react": "^3.5.1",
+    "jspm": "^0.16.12"
+  },
+  "jspm": {
+    "dependencies": {
+      "events": "github:jspm/nodelibs-events@^0.1.1",
+      "has-touch": "npm:has-touch@^1.0.1",
+      "react": "npm:react@^0.14.0",
+      "react-dom": "npm:react-dom@^0.14.0",
+      "set-touch-class": "npm:set-touch-class@^0.2.1",
+      "winresize-event": "npm:winresize-event@^0.2.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
