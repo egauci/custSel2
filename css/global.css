@@ -63,7 +63,7 @@ main {
   position: absolute;
 }
 
-.menuCtr > div:first-child {
+.menuCtr {
   overflow-y: auto;
   border: 1px solid #666;
   border-radius: 4px;
@@ -71,7 +71,7 @@ main {
   position: absolute
 }
 
-.touch .menuCtr > div:first-child {
+.touch .menuCtr {
   -webkit-overflow-scrolling: touch;
 }
 
@@ -111,7 +111,7 @@ main {
   border-left: 5px solid white;
 }
 
-.menuCtr li.menu-leaf:hover > div, .menuCtr li:focus > div {
+.menuCtr li.menu-leaf:hover > div, .menuCtr li.menu-leaf:focus > div {
   background: #f7f7f5;
   border-left: 5px solid #d34600;
 }
@@ -121,7 +121,7 @@ main {
   padding-bottom: 10px;
 }
 
-.menuCtr > div > ul > li:first-child > div {
+.menuCtr > ul > li:first-child > div {
   border-top-width: 0;
 }
 
